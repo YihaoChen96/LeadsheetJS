@@ -2,9 +2,15 @@ define(['modules/core/src/ChordModel'], function(ChordModel) {
 	var ChordModel_CSLJson = {};
 
 	ChordModel_CSLJson.importFromMusicCSLJSON = function(JSONChord) {
+		console.log("JSONChord=");
+		console.log(JSONChord);
 		var chordModel = new ChordModel();
-		chordModel.setNote(JSONChord.p);
-		chordModel.setChordType(JSONChord.ch);
+		var root = JSONChord.p;
+		var type = JSONChord.ch;
+		if (root == undefined) root = JSONChord.root; //TODO: patch as temporary
+		if (type == undefined) type = JSONChord.type; //TODO: patch as temporary
+		chordModel.setNote(root);
+		chordModel.setChordType(type);
 		chordModel.setParenthesis(JSONChord.parenthesis);
 		chordModel.setBeat(JSONChord.beat);
 		if (JSONChord.hasOwnProperty('bp') && JSONChord.bp.length !== 0) {
