@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - vexflow > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
+    - vexflow > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-09T06:38:09.742Z'
